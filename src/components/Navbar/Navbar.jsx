@@ -1,10 +1,11 @@
 import React from 'react';
-import './styles.css'
+import styles from './Navbar.module.css';
+
 const Navbar = () => {
   return (
-    <div className="container">
-        <img class="logo" src="/logo.png" alt="" />
-        <ul className='list'>
+    <div className={styles.container}>
+        <img className={styles.logo} src="/logo.png" alt="" />
+        <ul className={styles.list}>
           <li> 
             <a href="#sweets">Sweets</a>
             </li>
