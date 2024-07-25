@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './Chikkis.module.css';
-const Chikkis = () => {
+import styles from './Snacks.module.css';
+const Snacks = () => {
   return (
-    <div id="chikkis" className={styles.container}>
+    <div id="snacks" className={styles.container}>
         <h1 className={styles.title}>Bites & Chikkis</h1>
         <div className={styles.wrapper}>
             <div className={styles.card}>
@@ -30,4 +30,4 @@ const Chikkis = () => {
   )
 }
 
-export default Chikkis
+export default Snacks

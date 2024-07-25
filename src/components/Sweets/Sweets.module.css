@@ -1,10 +1,11 @@
 .container{
     margin-top: 50px;
-    height: 600px;
+    height: max-content;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .title{
