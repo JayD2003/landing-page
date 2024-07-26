@@ -5,7 +5,7 @@
 
 .top{
   background: linear-gradient(rgba(2, 0, 0, 0.5), rgba(12, 0, 0, 0.5)),
-    url(bg2.jpg);
+    url(/public/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
