@@ -3,7 +3,7 @@ import styles from './Chikkis.module.css';
 const Chikkis = () => {
   return (
     <div id="chikkis" className={styles.container}>
-        <h1 className={styles.title}>Bites & Chikkis</h1>
+        <h1 className={styles.title}>Bites & Chikkis😋</h1>
         <div className={styles.wrapper}>
             <div className={styles.card}>
                 <img className={styles.sweet} src="/chikkis/coconutburfi.png" alt="" />

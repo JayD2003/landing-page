@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero';
 import Sweets from './components/Sweets/Sweets';
 import Chikkis from './components/Chikkis/Chikkis';
 import Snacks from './components/Snacks/Snacks';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Sweets />
       <Chikkis />
       <Snacks />
+      <Contact />
     </div>
   )
 }

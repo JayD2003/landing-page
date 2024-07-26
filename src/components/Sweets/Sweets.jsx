@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './Sweets.module.css';
+
 const Sweets = () => {
   return (
     <div id="sweets" className={styles.container}>
-        <h1 className={styles.title}>Authentic South Indian Sweets😋</h1>
+        <h1 className={styles.title}>Authentic South Indian Sweets🤤</h1>
         <div className={styles.wrapper}>
             <div className={styles.card}>
                 <img className={styles.sweet} src="/sweets/mysorepak.webp" alt="" />
@@ -11,7 +12,7 @@ const Sweets = () => {
             </div>
             <div className={styles.card}>
                 <img className={styles.sweet} src="/sweets/athirasam.png" alt="" />
-                <h2>Athirasam</h2>
+                <h2>Ariselu</h2>
             </div>
             <div className={styles.card}>
                 <img className={styles.sweet} src="/sweets/doodpeda.png" alt="" />

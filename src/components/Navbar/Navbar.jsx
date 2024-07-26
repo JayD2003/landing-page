@@ -19,7 +19,7 @@ const Navbar = () => {
             <a href="#contact">Bulk Orders</a>
             </li>
         </ul>
-        <button>
+        <button className={styles.button}>
           <a href="#contact">Contact Us</a>
           </button>
     </div>
